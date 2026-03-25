@@ -1,6 +1,6 @@
 {
   "name": "vali-valid-svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Svelte adapter for vali-valid — Svelte 4 stores (createValiValid) and Svelte 5 runes (useValiValid)",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
