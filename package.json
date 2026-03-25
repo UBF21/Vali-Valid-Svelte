@@ -1,0 +1,64 @@
+{
+  "name": "vali-valid-svelte",
+  "version": "1.0.0",
+  "description": "Svelte adapter for vali-valid — Svelte 4 stores (createValiValid) and Svelte 5 runes (useValiValid)",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/esm/index.d.mts",
+  "exports": {
+    ".": {
+      "types": "./dist/esm/index.d.mts",
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.js"
+    },
+    "./svelte5": {
+      "svelte": "./src/useValiValid.svelte.ts",
+      "types": "./src/useValiValid.svelte.ts",
+      "default": "./src/useValiValid.svelte.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src/useValiValid.svelte.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svelte",
+    "validation",
+    "vali-valid",
+    "form-validation",
+    "svelte-stores",
+    "svelte5"
+  ],
+  "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com>",
+  "license": "MIT",
+  "homepage": "https://vali-valid.dev/svelte",
+  "bugs": {
+    "url": "https://github.com/UBF21/Vali-Valid-Svelte/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UBF21/Vali-Valid-Svelte.git"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "svelte": ">=4.0.0",
+    "vali-valid": ">=3.1.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "@testing-library/svelte": "^5.3.1",
+    "jsdom": "^25.0.0",
+    "svelte": "^5.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.4",
+    "vali-valid": "^3.1.0",
+    "vitest": "^2.1.9"
+  }
+}
