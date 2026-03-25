@@ -1,6 +1,6 @@
 {
   "name": "vali-valid-svelte",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Svelte adapter for vali-valid — Svelte 4 stores (createValiValid) and Svelte 5 runes (useValiValid)",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.mjs",
@@ -38,7 +38,7 @@
   ],
   "author": "Felipe Rafael Montenegro Morriberon <teabajo_ubf@hotmail.com>",
   "license": "MIT",
-  "homepage": "https://vali-valid.dev/svelte",
+  "homepage": "https://vali-valid-docs.netlify.app/svelte",
   "bugs": {
     "url": "https://github.com/UBF21/Vali-Valid-Svelte/issues"
   },
